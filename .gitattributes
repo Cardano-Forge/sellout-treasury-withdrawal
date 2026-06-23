@@ -1,0 +1,2 @@
+# Preserve exact bytes of governance metadata so the on-chain blake2b-256 anchor hash stays valid.
+*.jsonld -text

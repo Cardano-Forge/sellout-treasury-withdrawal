@@ -16,7 +16,7 @@ It funds **Phase 2** of a production, Cardano-native ticketing platform — a se
 
 ## Files
 
-- **[`sellout-treasury-withdrawal.metadata.jsonld`](./sellout-treasury-withdrawal.metadata.jsonld)** — the CIP-100 / CIP-108 governance-action metadata (the on-chain anchor target).
+- **[`sellout-treasury-withdrawal.metadata.signed.jsonld`](./sellout-treasury-withdrawal.metadata.signed.jsonld)** — the CIP-100 / CIP-108 governance-action metadata, signed with the author witness (the on-chain anchor target).
 - **[`sellout-treasury-withdrawal.proposal.html`](./sellout-treasury-withdrawal.proposal.html)** — the full proposal, formatted for reading.
 - **[`sellout-treasury-withdrawal.proposal.md`](./sellout-treasury-withdrawal.proposal.md)** — the full proposal in Markdown.
 
@@ -27,8 +27,18 @@ The complete proposal text (abstract, motivation, rationale, capital allocation,
 The on-chain action references this metadata by **URL + blake2b-256 hash**. To verify the hash of the metadata file:
 
 ```bash
-b2sum -l 256 sellout-treasury-withdrawal.metadata.jsonld
+b2sum -l 256 sellout-treasury-withdrawal.metadata.signed.jsonld
 ```
+
+Expected values:
+
+| | |
+|---|---|
+| Anchor data hash (blake2b-256) | `abb3ccecbc0fe771a118b1e540e1bca4da22f947f72f18e18b1bec9c69de4568` |
+| Author | Anvil Development Agency, Inc. |
+| Author public key (ed25519) | `1e8913e605dbcbd239867320dbf580577222f7d61898283e16a56532bca59cd1` |
+
+The author witness can be verified with `cardano-signer verify --cip100 --data-file sellout-treasury-withdrawal.metadata.signed.jsonld`.
 
 ## Links
 

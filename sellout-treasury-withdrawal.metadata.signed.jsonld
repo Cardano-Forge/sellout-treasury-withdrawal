@@ -88,8 +88,8 @@
       "name": "Anvil Development Agency, Inc.",
       "witness": {
         "witnessAlgorithm": "ed25519",
-        "publicKey": "REPLACE_WITH_AUTHOR_PUBLIC_KEY",
-        "signature": "REPLACE_WITH_AUTHOR_SIGNATURE"
+        "publicKey": "1e8913e605dbcbd239867320dbf580577222f7d61898283e16a56532bca59cd1",
+        "signature": "5dc12fdb5833877f2033aeb9c19a9651d14aaa67d3a685fc400c4accb136da721a96a2abd49f7ca211e8c23b80dda8262a106008cbfdcb4ae8d1ca93b591950b"
       }
     }
   ],
@@ -133,12 +133,12 @@
       {
         "@type": "Other",
         "label": "Cardano Forum Discussion",
-        "uri": "REPLACE_WITH_CARDANO_FORUM_POST_URL"
+        "uri": "https://forum.cardano.org/t/cardano-enterprise-adoption-production-ticketing-platform-sellout-x-anvil/155231"
       }
     ],
     "onChain": {
       "deposit": "100000000000",
-      "reward_account": "REPLACE_WITH_DEPOSIT_RETURN_STAKE_ADDRESS",
+      "reward_account": "stake1uy8vr53guapag0rfvwnumlteyls8agysvrv87pdgukp8cugm6qjgj",
       "gov_action": {
         "tag": "treasury_withdrawals_action",
         "rewards": [

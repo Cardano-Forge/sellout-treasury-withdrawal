@@ -103,7 +103,7 @@
       {
         "@type": "Other",
         "label": "Full Proposal (human-readable, formatted)",
-        "uri": "https://raw.githubusercontent.com/Cardano-Forge/sellout-treasury-withdrawal/main/sellout-treasury-withdrawal.proposal.html"
+        "uri": "https://raw.githubusercontent.com/Cardano-Forge/sellout-treasury-withdrawal/master/sellout-treasury-withdrawal.proposal.html"
       },
       {
         "@type": "Other",

@@ -89,7 +89,7 @@
       "witness": {
         "witnessAlgorithm": "ed25519",
         "publicKey": "1e8913e605dbcbd239867320dbf580577222f7d61898283e16a56532bca59cd1",
-        "signature": "a3b52d2e47cd878f0266ac924b0949a5c2066de5f3582430f0fc1c0d0e87f9fadbc5a7fbe5e4b40c86c6d995999f4afbfac29f7c564b78b46240f506f740f904"
+        "signature": "f5c41ac547e6fe83a9ced675a30d04b8fe591137eaa0aca3884de7b1d9c15c131dedcc0e4a33b1e44aba9014015aa6308669789467c9132ca20ecacc1ebbda01"
       }
     }
   ],
@@ -103,7 +103,7 @@
       {
         "@type": "Other",
         "label": "Full Proposal (human-readable, formatted)",
-        "uri": "https://raw.githubusercontent.com/Cardano-Forge/sellout-treasury-withdrawal/master/sellout-treasury-withdrawal.proposal.html"
+        "uri": "https://github.com/Cardano-Forge/sellout-treasury-withdrawal/blob/master/sellout-treasury-withdrawal.proposal.md"
       },
       {
         "@type": "Other",

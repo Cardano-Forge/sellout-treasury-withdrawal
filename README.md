@@ -34,7 +34,7 @@ Expected values:
 
 | | |
 |---|---|
-| Anchor data hash (blake2b-256) | `abb3ccecbc0fe771a118b1e540e1bca4da22f947f72f18e18b1bec9c69de4568` |
+| Anchor data hash (blake2b-256) | `3bf2eef8ea5fa7dcb6cf5c1e5c9f19ba860574533a3702dd5581747698155911` |
 | Author | Anvil Development Agency, Inc. |
 | Author public key (ed25519) | `1e8913e605dbcbd239867320dbf580577222f7d61898283e16a56532bca59cd1` |
 

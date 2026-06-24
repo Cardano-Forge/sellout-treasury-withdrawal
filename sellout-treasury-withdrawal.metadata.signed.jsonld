@@ -91,6 +91,14 @@
         "publicKey": "1e8913e605dbcbd239867320dbf580577222f7d61898283e16a56532bca59cd1",
         "signature": "f5c41ac547e6fe83a9ced675a30d04b8fe591137eaa0aca3884de7b1d9c15c131dedcc0e4a33b1e44aba9014015aa6308669789467c9132ca20ecacc1ebbda01"
       }
+    },
+    {
+      "name": "Intersect",
+      "witness": {
+        "witnessAlgorithm": "ed25519",
+        "publicKey": "05568f86955e65c1a59df5ac1985449b167c3828dccd00b3da9df36a1cf1c743",
+        "signature": "a5e6561229b27cd4e533a43e88a987d289ecbbf6ad0b6f654c50deb061ed0e1ab3901bb5f9614a685185943857d90324473a8ac75a5a2fcd7e375cf986b4b70c"
+      }
     }
   ],
   "hashAlgorithm": "blake2b-256",
